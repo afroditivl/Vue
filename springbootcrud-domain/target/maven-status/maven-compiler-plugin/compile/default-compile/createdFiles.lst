@@ -1,0 +1,4 @@
+gr\publicsoft\springbootcrud\Constants.class
+gr\publicsoft\springbootcrud\model\Supplier.class
+gr\publicsoft\springbootcrud\model\Person$Gender.class
+gr\publicsoft\springbootcrud\model\Person.class
