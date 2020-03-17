@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-12">
           <el-card class="box-card">
-            <div slot="header" class="clearfix">
+            <div slot="header">
               <span>Προμηθευτές</span>
             </div>
             <el-row>
@@ -15,9 +15,6 @@
                   autocomplete="name">
                 </el-input>
               </el-col>
-              <!--      <el-col :span="0.2">-->
-              <!--        <div> </div>-->
-              <!--      </el-col>-->
               <el-col :span="5">
                 <el-button
                   class="el-button--primary"
@@ -43,7 +40,8 @@
                   <el-button
                     size="mini"
                     class="el-button--warning"
-                    @click="onSupplierSelected(scope.row)">Edit
+                    @click="onSupplierSelected(scope.row)">
+                    Edit
                   </el-button>
                 </template>
               </el-table-column>
@@ -52,6 +50,7 @@
               <el-button
                 class="el-button--success"
                 @click="createSupplier">
+                <i class="fa fa-plus"></i>
                 Δημιουργία
               </el-button>
             </div>

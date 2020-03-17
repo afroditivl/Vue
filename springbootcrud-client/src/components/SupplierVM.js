@@ -142,9 +142,6 @@ export default {
       })
     },
     transformRequest (data) {
-      if (data.mobilePhone === '') {
-        delete data.mobilePhone
-      }
       return JSON.stringify(data)
     },
     clearValidation () {

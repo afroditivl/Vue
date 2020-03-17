@@ -22,8 +22,8 @@ export default {
   },
   data: function () {
     return {
-      // url: 'suppliers/search/findByQuery?query=',
-      url: 'suppliers',
+      url: 'suppliers/search/findByQuery?query=',
+      // url: 'suppliers',
       query: '',
       suppliers: [],
       fields: [

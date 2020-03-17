@@ -14,6 +14,11 @@ export default {
       name: 'Suppliers',
       url: '/suppliers',
       icon: 'icon-calendar'
+    },
+    {
+      name: 'Supplier Form',
+      url: '/supplier',
+      icon: 'icon-calendar'
     }
   ]
 }
